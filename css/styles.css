@@ -1,0 +1,255 @@
+:root {
+  --accent-color: #2196f3;
+  --accent-color2: #757575;
+  --accent-color3: #ffffff;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  --accent-bg-color: #2f303a;
+}
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+body {
+  font-family: var(--main-font);
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* header */
+.top-header {
+  background-color: var(--accent-color3);
+}
+/* sit-nav */
+.site-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+.site-nav-link.current {
+  color: var(--accent-color);
+}
+/* contacts-list */
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color2);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+/* /header */
+
+/* hero */
+.hero-section {
+  background-color: var(--accent-bg-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-color3);
+}
+.hero-btn {
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--accent-color3);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+/* /hero */
+/* features */
+.features-section {
+  background-color: var(--accent-color3);
+}
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.features-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color2);
+}
+/* /features */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* work */
+.work-section {
+  background-color: var(--accent-color3);
+}
+/* team */
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-item {
+  background-color: var(--accent-color3);
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--accent-color2);
+}
+/* /team */
+/* footer */
+.footer {
+  background-color: var(--accent-bg-color);
+}
+
+.studio-address {
+  font-style: inherit;
+}
+.footer-contact-address {
+  font-style: inherit;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  color: var(--accent-color3);
+}
+.footer-contact-mail,
+.footer-contact-tel {
+  font-style: inherit;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact-address:hover,
+.footer-contact-address:focus {
+  color: var(--accent-color);
+}
+
+.footer-contact-mail:hover,
+.footer-contact-mail:focus {
+  color: var(--accent-color);
+}
+
+.footer-contact-tel:hover,
+.footer-contact-tel:focus {
+  color: var(--accent-color);
+}
+/* logo */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo-forepart {
+  color: var(--accent-color);
+}
+
+.top-header .logo {
+  color: #000000;
+}
+
+.footer .logo {
+  color: var(--accent-color3);
+}
+/* /logo */
+
+/* portfolio */
+.portfolio-filters-btn {
+  cursor: pointer;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+}
+.portfolio-filters-btn:hover,
+.portfolio-filters-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--accent-color3);
+}
+.portfolio-prj-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-prj-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--accent-color2);
+}
+.portfolio-prj-link {
+  text-decoration: none;
+}
