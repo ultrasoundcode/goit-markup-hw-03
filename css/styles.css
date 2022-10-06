@@ -332,12 +332,23 @@ body {
 .portfolio-prj-item {
   margin: 15px;
 }
+.portfolio-prj-card {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
 .portfolio-prj-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+
+  margin-bottom: 4px;
 }
 .portfolio-prj-desc {
   font-weight: 400;
