@@ -204,12 +204,23 @@ body {
   padding-bottom: 94px;
   background-color: #f5f4fa;
 }
-.team-list {
+/* вариант #1 */
+/* .team-list {
   display: flex;
   justify-content: space-between;
+} */
+
+/* вариант #2 */
+.team-list {
+  display: flex;
+  margin-top: -30px;
+  margin-left: -30px;
 }
 .team-item {
   background-color: var(--accent-color3);
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 120px) / 4);
 }
 .team-card {
   padding-top: 30px;
