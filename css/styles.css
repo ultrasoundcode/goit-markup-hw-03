@@ -44,6 +44,7 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
   background-color: var(--accent-color3);
+  border-bottom: 1px solid #ececec;
 }
 .header-container {
   display: flex;
@@ -155,9 +156,13 @@ body {
 .features-list {
   display: flex;
 }
+.features-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
 .features-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -165,6 +170,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 .features-desc {
   font-weight: 400;
@@ -205,15 +211,20 @@ body {
 .team-item {
   background-color: var(--accent-color3);
 }
-.team-title {
+.team-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.team-card-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
-.team-desc {
+.team-card-desc {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
@@ -285,6 +296,9 @@ body {
 }
 
 .footer .logo {
+  display: inline-block;
+  margin-right: 0;
+  margin-bottom: 10px;
   color: var(--accent-color3);
 }
 /* /logo */
@@ -332,6 +346,7 @@ body {
 .portfolio-prj-item {
   margin: 15px;
 }
+
 .portfolio-prj-card {
   padding-left: 24px;
   padding-right: 24px;
