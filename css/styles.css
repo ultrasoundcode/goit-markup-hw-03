@@ -337,7 +337,8 @@ body {
   background-color: var(--accent-color);
   color: var(--accent-color3);
 }
-.portfolio-prj-list {
+/* вариант #1 */
+/* .portfolio-prj-list {
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
@@ -345,8 +346,32 @@ body {
 }
 .portfolio-prj-item {
   margin: 15px;
-}
+} */
 
+/* вариант #2  */
+/* .portfolio-prj-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.portfolio-prj-item {
+  margin-left: 30px;
+  margin-top: 30px;
+} */
+
+/* вариант #3 */
+.portfolio-prj-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.portfolio-prj-item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 90px) / 3);
+}
 .portfolio-prj-card {
   padding-left: 24px;
   padding-right: 24px;
